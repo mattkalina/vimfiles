@@ -22,6 +22,7 @@ set visualbell
 set wildmenu
 
 set guifont=Monaco:h12,Consolas:h10
+set guioptions-=T
 set background=dark
 colorscheme night-owl
 
