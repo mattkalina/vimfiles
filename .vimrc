@@ -39,6 +39,6 @@ highlight ExtraWhitespace ctermbg=red ctermfg=white guibg=red
 match ExtraWhitespace /\s\+$/
 
 let g:ctrlp_custom_ignore = {
-  \ 'dir': '\v[\/](build|node_modules)',
+  \ 'dir': '\v[\/](__pycache__|build|node_modules)',
   \ 'file': '\v\.(exe|so|dll)$',
   \ }
